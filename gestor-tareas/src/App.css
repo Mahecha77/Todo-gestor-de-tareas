@@ -1,0 +1,23 @@
+.container {
+  max-width: 600px; 
+  background: rgb(255, 204, 204);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  transition: all 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #cbcaff;
+}
+
+button.btn-danger {
+  transition: transform 0.2s ease;
+}
+
+button.btn-danger:hover {
+  transform: scale(1.05);
+}
